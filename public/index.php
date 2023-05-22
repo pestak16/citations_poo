@@ -1,4 +1,7 @@
 <?php
 
+define('ROOT', dirname(__DIR__));
 
-print_r($_GET);
+require_once ROOT. '/config/constantes.php';
+
+var_dump(WWW);
